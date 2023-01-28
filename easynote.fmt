@@ -110,9 +110,9 @@ easynotes_showall
 	dup /en_y exch def
 }!
 
-/en_setup_treble_clef { 1 2 en_setup_clef }!
-/en_setup_bass_clef   { 2 0 en_setup_clef }!
-/en_setup_alto_clef   { 3 1 en_setup_clef }!
+/en_setup_treble_clef { 1 0 en_setup_clef }!
+/en_setup_bass_clef   { 2 1 en_setup_clef }!
+/en_setup_alto_clef   { 3 4 en_setup_clef }!
 
 /T { /en_clef 0 def old_T }!
 /tclef  { en_setup_treble_clef old_tclef }!
